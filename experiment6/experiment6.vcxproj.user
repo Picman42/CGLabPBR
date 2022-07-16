@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>-model ../data/switch/switch.obj -albedo ../data/switch/Nintendo_Switch_Material_albedo.jpg -metallic ../data/switch/Nintendo_Switch_Material_metallic.jpg -normal ../data/switch/Nintendo_Switch_Material_normal.png -roughness ../data/switch/Nintendo_Switch_Material_roughness.jpg -ao ../data/switch/Nintendo_Switch_Material_AO.jpg</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
